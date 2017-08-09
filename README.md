@@ -1,5 +1,9 @@
 # getComments.js
-Select HTML Comments like any other DOM Node
+Select HTML Comments like any other DOM Node, with this fast comment selector implementation.
+
+```
+<!-- This is a comment -->
+```
 
 JSFiddle Example [DEMO](https://jsfiddle.net/Victornpb/630garm8/)
 
@@ -47,3 +51,7 @@ get all comments filtered by a function
         return false;
     })
 
+
+## Suggestions / Questions
+
+File a [issue](https://github.com/victornpb/getComments.js/issues) on this repository
