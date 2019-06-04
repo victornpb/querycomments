@@ -6,7 +6,7 @@
  * @author Victor N. wwww.victorborges.com
  * @date   2017-07-07
  */
-function getComments(context, filter) {
+function queryComments(context, filter) {
     //console.time('getComments');
     var nodeIterator = document.createNodeIterator(
         context || document,
