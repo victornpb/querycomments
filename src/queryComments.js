@@ -6,23 +6,23 @@
  * @author Victor N. wwww.victorborges.com
  * @date   2017-07-07
  */
-function queryComments(context, filter) {
+export default function queryComments(context, filter) {
     //console.time('getComments');
-    var nodeIterator = document.createNodeIterator(
+    const nodeIterator = document.createNodeIterator(
         context || document,
         NodeFilter.SHOW_COMMENT, {
-            acceptNode: function(node) {
-                return NodeFilter.FILTER_ACCEPT;
-            }
+        acceptNode(node) {
+            return NodeFilter.FILTER_ACCEPT;
         }
+    }
     );
 
-    var control = {
+    const control = {
         abort: false,
         breakOnFirst: false
     };
 
-    var comments = [];
+    const comments = [];
     if (typeof filter === "function") {
         while (nodeIterator.nextNode()) {
             if (filter.call(control, nodeIterator.referenceNode.nodeValue, nodeIterator.referenceNode)) {
