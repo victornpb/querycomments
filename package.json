@@ -43,7 +43,7 @@
   ],
   "sideEffects": false,
   "dependencies": {
-    "core-js": "^3.19.1"
+    "core-js": "^3.28.0"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
