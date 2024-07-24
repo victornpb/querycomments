@@ -2,9 +2,6 @@
 
 ![Node](https://img.shields.io/node/v/querycomments.svg?style=flat-square)
 [![NPM](https://img.shields.io/npm/v/querycomments.svg?style=flat-square)](https://www.npmjs.com/package/querycomments)
-[![Travis](https://img.shields.io/travis/victornpb/querycomments/master.svg?style=flat-square)](https://travis-ci.org/victornpb/querycomments)
-[![David](https://img.shields.io/david/victornpb/querycomments.svg?style=flat-square)](https://david-dm.org/victornpb/querycomments)
-[![Coverage Status](https://img.shields.io/coveralls/victornpb/querycomments.svg?style=flat-square)](https://coveralls.io/github/victornpb/querycomments)
 [![NPM](https://img.shields.io/npm/dt/querycomments.svg?style=flat-square)](https://www.npmjs.com/package/querycomments)
 
 Select HTML Comments like any other DOM Node, with this fast comment selector implementation.
