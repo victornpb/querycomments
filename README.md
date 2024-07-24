@@ -7,7 +7,7 @@
 [![Coverage Status](https://img.shields.io/coveralls/victornpb/querycomments.svg?style=flat-square)](https://coveralls.io/github/victornpb/querycomments)
 [![NPM](https://img.shields.io/npm/dt/querycomments.svg?style=flat-square)](https://www.npmjs.com/package/querycomments)
 
-A super lightweight fps meter, with near zero overhead
+Select HTML Comments like any other DOM Node, with this fast comment selector implementation.
 
 ## Installation
 
@@ -21,7 +21,7 @@ NPM
 
 If you don't use a package manager, you can [access `querycomments` via unpkg (CDN)](https://unpkg.com/querycomments/), download the source, or point your package manager to the url.
 
-Select HTML Comments like any other DOM Node, with this fast comment selector implementation.
+
 
 ```html
 <!-- This is a comment -->
